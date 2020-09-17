@@ -2,6 +2,7 @@ from abc import abstractmethod, ABCMeta
 
 
 class Shapes(metaclass = ABCMeta):  #abstract base class does not have def on its own
+    @abstractmethod # decorator
     def area(self):
         return 0
 
